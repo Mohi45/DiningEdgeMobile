@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- sendOGTest_FromOrder_Guide *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[[2023-02-10] [16:01:08:769] User enters the userName = testauto]]>
+    </line>
+    <line>
+      <![CDATA[[2023-02-10] [16:01:10:756] User enters the password = 123456]]>
+    </line>
+    <line>
+      <![CDATA[[2023-02-10] [16:01:13:562] User clicks on the Sign In Button !!]]>
+    </line>
+    <line>
+      <![CDATA[[2023-02-10] [16:01:22:215] User clicks on the Order Edge Button!!]]>
+    </line>
+    <line>
+      <![CDATA[[2023-02-10] [16:01:27:667] User clicks on the send icon !!]]>
+    </line>
+    <line>
+      <![CDATA[[2023-02-10] [16:01:33:348] User clicks on the add unit icon !!]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-02-10T16:00:47 IST" name="Default suite" finished-at="2023-02-10T16:01:39 IST" duration-ms="52103">
+    <groups>
+    </groups>
+    <test started-at="2023-02-10T16:00:47 IST" name="Default test" finished-at="2023-02-10T16:01:39 IST" duration-ms="52103">
+      <class name="DiningEdgeAutomation.Mobile.SendOGTest">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:DiningEdgeAutomation.Mobile.SendOGTest@2e3967ea]" started-at="2023-02-10T16:00:47 IST" name="configureAppium" finished-at="2023-02-10T16:00:59 IST" duration-ms="11981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method is-config="true" signature="intilizeObjects()[pri:0, instance:DiningEdgeAutomation.Mobile.SendOGTest@2e3967ea]" started-at="2023-02-10T16:00:59 IST" name="intilizeObjects" finished-at="2023-02-10T16:00:59 IST" depends-on-methods="DiningEdgeAutomation.Mobile.BaseTest.configureAppium" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intilizeObjects -->
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:DiningEdgeAutomation.Mobile.SendOGTest@2e3967ea]" started-at="2023-02-10T16:00:59 IST" name="setExtent" finished-at="2023-02-10T16:00:59 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="testMethodName(java.lang.reflect.Method)[pri:0, instance:DiningEdgeAutomation.Mobile.SendOGTest@2e3967ea]" started-at="2023-02-10T16:00:59 IST" name="testMethodName" finished-at="2023-02-10T16:00:59 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void DiningEdgeAutomation.Mobile.SendOGTest.sendOGTest_FromOrder_Guide()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- sendOGTest_FromOrder_Guide *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMethodName -->
+        <test-method signature="sendOGTest_FromOrder_Guide()[pri:0, instance:DiningEdgeAutomation.Mobile.SendOGTest@2e3967ea]" started-at="2023-02-10T16:00:59 IST" name="sendOGTest_FromOrder_Guide" finished-at="2023-02-10T16:01:38 IST" duration-ms="38545" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-02-10] [16:01:08:769] User enters the userName = testauto]]>
+            </line>
+            <line>
+              <![CDATA[[2023-02-10] [16:01:10:756] User enters the password = 123456]]>
+            </line>
+            <line>
+              <![CDATA[[2023-02-10] [16:01:13:562] User clicks on the Sign In Button !!]]>
+            </line>
+            <line>
+              <![CDATA[[2023-02-10] [16:01:22:215] User clicks on the Order Edge Button!!]]>
+            </line>
+            <line>
+              <![CDATA[[2023-02-10] [16:01:27:667] User clicks on the send icon !!]]>
+            </line>
+            <line>
+              <![CDATA[[2023-02-10] [16:01:33:348] User clicks on the add unit icon !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sendOGTest_FromOrder_Guide -->
+        <test-method is-config="true" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:DiningEdgeAutomation.Mobile.SendOGTest@2e3967ea]" started-at="2023-02-10T16:01:38 IST" name="take_screenshot_on_failure" finished-at="2023-02-10T16:01:38 IST" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sendOGTest_FromOrder_Guide status=SUCCESS method=SendOGTest.sendOGTest_FromOrder_Guide()[pri:0, instance:DiningEdgeAutomation.Mobile.SendOGTest@2e3967ea] output=[2023-02-10] [16:01:08:769] User enters the userName = testauto]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:DiningEdgeAutomation.Mobile.SendOGTest@2e3967ea]" started-at="2023-02-10T16:01:38 IST" name="endReport" finished-at="2023-02-10T16:01:38 IST" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DiningEdgeAutomation.Mobile.SendOGTest@2e3967ea]" started-at="2023-02-10T16:01:38 IST" name="tearDown" finished-at="2023-02-10T16:01:39 IST" duration-ms="768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DiningEdgeAutomation.Mobile.SendOGTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

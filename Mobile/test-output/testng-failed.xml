@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="DiningEdgeAutomation.Mobile.SendOGTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="endReport"/>
+          <include name="setExtent"/>
+          <include name="intilizeObjects"/>
+          <include name="take_screenshot_on_failure"/>
+          <include name="configureAppium"/>
+          <include name="testMethodName"/>
+          <include name="sendOGTest_FromOrder_Guide"/>
+        </methods>
+      </class> <!-- DiningEdgeAutomation.Mobile.SendOGTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
